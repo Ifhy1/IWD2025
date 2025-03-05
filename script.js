@@ -10,7 +10,6 @@ function shuffleStories() {
   });
 }
 
-// Quiz Logic Function
 function checkQuiz() {
   let q1 = document.getElementById("q1").value;
   let q2 = document.getElementById("q2").value;
@@ -38,10 +37,9 @@ function checkQuiz() {
   }
 } 
 
-// Initialize page
 document.addEventListener("DOMContentLoaded", shuffleStories);
 
-// stories.html
+
 const stories = [
   { name: "Marie Curie", field: "Science", impact: "First woman to win a Nobel Prize." },
   { name: "Ada Lovelace", field: "Technology", impact: "Pioneer of computer programming." },
@@ -56,7 +54,7 @@ const stories = [
   { name: "Valentina Tereshkova", field: "Space", impact: "First woman in space." }
 ];
 
-// quiz.html
+
 const quizQuestions = [
   { question: "Who was the first woman to win a Nobel Prize?", answer: "Marie Curie" },
   { question: "Who is considered the first computer programmer?", answer: "Ada Lovelace" },

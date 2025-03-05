@@ -11,8 +11,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: inset;
 }
 
 @media (max-width: 500px) {
@@ -25,18 +26,22 @@ body {
      max-width: 600px;
       margin: 50px auto;
        padding: 20px; 
-       background: burlywood;
+       background: #E30B5C;
         border-radius: 10px;
          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
          transition: background-color 0.3s ease;
          } 
          .container:hover {
-          background-color: pink;
+          background-color:pink;
           transform: scale(1,1);
          }
 
          h1 {
            color: black;
+           }
+
+           p {
+            font-size: large;
            }
            
            .btn {
