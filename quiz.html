@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <head> 
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>Take the Quiz</title> 
+     <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body>
+       <div class="container">
+        <h1>Take the Quiz</h1> 
+        <form id="quizForm"> 
+          <label>Who was the first woman to win a Nobel Prize?</label> 
+          <select id="q1"> 
+            <option value="">Select an answer</option> 
+            <option value="Marie Curie">Marie Curie</option> 
+            <option value="Ada Lovelace">Ada Lovelace</option>
+           </select> <label>Which woman pioneered computer programming?</label> 
+           <select id="q2">
+            <option value="">Select an answer</option> 
+            <option value="Marie Curie">Marie Curie</option> 
+            <option value="Ada Lovelace">Ada Lovelace</option>
+           </select>
+            <button type="button" class="btn" onclick="checkQuiz()">Submit</button>
+           </form> 
+           <p id="quizResult"></p> 
+           <a href="index.html" class="btn">Back to Home</a> 
+          </div>
+           <script src="script.js"></script>
+           </body> 
+           </html>
