@@ -22,29 +22,30 @@ body {
   }
 }
 
-   .container {
+ .container {
      max-width: 600px;
       margin: 50px auto;
        padding: 20px; 
-       background: pink;
+       background: rgb(194, 10, 96);
         border-radius: 10px;
          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
          transition: background-color 0.3s ease;
          } 
-         .container:hover {
+
+   .container:hover {
           background-color:pink;
           transform: scale(1,1);
          }
 
-         h1 {
+     h1 {
            color: black;
            }
 
-           p {
+       p {
             font-size: large;
            }
            
-           .btn {
+      .btn {
              display: inline-block;
               padding: 10px;
                margin: 10px;
